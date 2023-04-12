@@ -1,0 +1,11 @@
+rm -rf .git
+
+
+git init
+git remote add origin url
+git remote -v
+git status
+git add .
+git commit -m "Primer Commit"
+git push origin master
+git log
